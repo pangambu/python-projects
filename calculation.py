@@ -1,17 +1,11 @@
-def add(a,b):
-    sum = a + b
-    return sum
-    
-    
-def subtract(a,b):
-    sum=a-b 
-    return sum
-    
-def multiply(a,b):
-    sum = a*b
-    return sum
-    
-def divide(a,b):
-    sum= a/b
-    return 
+from calculations import addition, subtract, multiply, division
+
+
+print(addition.add(4,5))
+
+print(subtract.subtraction(10,2))
+
+print(multiply.multiply(3,4))
+
+print(division.divide(9,0))
 
